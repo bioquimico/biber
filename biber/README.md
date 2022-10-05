@@ -3,7 +3,7 @@ This repository contains a docker image that allows running BEB application.
 
 #  BIBER File Directory structure
 
-  ```
+```
 biber
 │   README.md
 |   Dockerfile
@@ -37,6 +37,7 @@ biber
 You can build this docker image from a dockerfile using this command
 ```
 docker build -t biberapp:latest .
+```
 
 # Run the docker container
 Simply enter the following command to run biber application with example data
