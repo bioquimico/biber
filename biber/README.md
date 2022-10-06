@@ -1,5 +1,5 @@
 # Description
-This repository contains a docker image that allows running BEB application.
+This repository contains a docker image that allows running BEB (codename BIBER) application.
 
 #  BIBER File Directory structure
 
