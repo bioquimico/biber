@@ -1,5 +1,5 @@
 # Description
-This repository contains a docker image that allows running BEB (codename BIBER) application.
+This repository contains a docker image that allows running BEB, the B. cinerea gene Expression Browser (codename BIBER) application.
 
 #  BEB (a.k.a. BIBER) File Directory structure
 
