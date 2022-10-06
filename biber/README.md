@@ -75,11 +75,11 @@ docker run -p 8501:8501 -d --rm biberapp:latest
 
  - copy new counts file into a running container
  ```
- docker cp $(pwd)/data/COUNTS_FILE.csv biberapp:/app/data/counts.csv 
+ docker cp $(pwd)/data/COUNTS_FILE.csv biberapp:/app/data/production/counts.csv 
 ```
  - copy new metadata file into a running container
  ```
- docker cp $(pwd)/data/METADATA_FILE.csv biberapp:/app/data/counts.csv 
+ docker cp $(pwd)/data/METADATA_FILE.csv biberapp:/app/data/production/metadata.csv 
 ```
 
  - Mount your working data folder in the container 
