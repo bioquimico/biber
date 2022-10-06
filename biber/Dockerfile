@@ -1,4 +1,4 @@
-FROM ubuntu:21.06
+FROM ubuntu:20.04
 WORKDIR /app
 
 ENV DEBIAN_FRONTEND=noninteractive
