@@ -45,13 +45,13 @@ Steps to build a Docker image:
 
 # Clone this repo
 ```
-        git clone https://github.com/bioquimico/biber.git
+git clone https://github.com/bioquimico/biber.git
 ```
 
-# Build the image
-        ```
-        cd biber
-        ```
+# Go into the directory
+ ``` 
+ cd biber
+ ```
         
 # Build docker image
 You can build this docker image from a dockerfile using this command
