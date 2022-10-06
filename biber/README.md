@@ -31,8 +31,28 @@ biber
     │   ibio.png
 ```
 
+# Prerequisites
+-----
 
+We assume you have installed Docker and it is running.
 
+See the [Docker website](http://www.docker.io/gettingstarted/#h_installation) for installation instructions.
+
+# Build
+-----
+
+Steps to build a Docker image:
+
+# Clone this repo
+```
+        git clone https://github.com/bioquimico/biber.git
+```
+
+# Build the image
+        ```
+        cd biber
+        ```
+        
 # Build docker image
 You can build this docker image from a dockerfile using this command
 ```
