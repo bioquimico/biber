@@ -37,9 +37,9 @@ biber
 We assume you have installed Docker and it is running.
 
 See the [Docker website](http://www.docker.io/gettingstarted/#h_installation) for installation instructions.
-
-# Build
 -----
+# Build
+
 
 Steps to build a Docker image:
 
