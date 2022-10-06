@@ -62,12 +62,12 @@ docker build -t biberapp:latest .
 # Run the docker container
 Simply enter the following command to run biber application with example data
 ```
-docker run -p 8501:8501 -ti --rm biberapp:latest
+docker run --name biberapp -p 8501:8501 -ti --rm biberapp:latest
 ```
 or in detached mode or in the background
 
 ```
-docker run -p 8501:8501 -d --rm biberapp:latest
+docker run --name biberapp -p 8501:8501 -d --rm biberapp:latest
 ```
 
 
