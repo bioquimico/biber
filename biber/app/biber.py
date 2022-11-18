@@ -424,7 +424,14 @@ def main():
         BEB is an Open Platform of the Millennium Institute of Integrative Biology [iBio][ibio] open-source and open science initiative.
                 
         [ibio]: <https://www.ibio.cl/tecnologiaslibres/>
-        """, unsafe_allow_html=True )   
+        """, unsafe_allow_html=True ) 
+
+    st.markdown("""
+        BEB gene-level count matrix (counts) and the metadata files can be found [here][here].
+                
+        [here]: <https://github.com/bioquimico/biber/tree/main/biber/app/data/production>
+        """, unsafe_allow_html=True ) 
+
     # From GECO!
     st.sidebar.subheader('Mode')
     modeOptions = ['Analyze', 'Read Me']
