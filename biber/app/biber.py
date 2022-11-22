@@ -70,7 +70,7 @@ def genes_select(df,container):
     form = st.form(key='select_genes')
     if (statusSample  == 'Paste a List'):
          
-         user_input = form.text_input(label='Space Separated Gene List')
+         user_input = form.text_input(label='Space Separated Gene List',value="Bcin08g07060 Bcin01g07170 Bcin06g04710")
          user_input = user_input.split(" ")
          user_input = list(filter(None, user_input))
          if len(user_input) >= 2 or len(user_input)<=250:
